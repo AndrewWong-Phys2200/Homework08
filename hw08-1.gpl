@@ -1,0 +1,7 @@
+unset key
+set style data line
+
+set term png
+set o "hw08-1.png"
+
+p [:] [:] "res1" u 6:4
